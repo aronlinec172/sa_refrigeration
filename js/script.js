@@ -97,7 +97,7 @@ function initProductFilters() {
         item.addEventListener('click', () => {
             const partName = item.textContent.trim();
             const message = `Hi! I'm interested in: ${partName}. Could you please provide more details about availability and pricing?`;
-            const whatsappUrl = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
+            const whatsappUrl = `https://wa.me/918384004598?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
             
             // Track analytics
